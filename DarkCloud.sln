@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WhiteCloud", "WhiteCloud\WhiteCloud.vcxproj", "{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}"
 EndProject
@@ -9,24 +9,42 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LightCloud", "LightCloud\Li
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libDarkCloud", "libDarkCloud\libDarkCloud.vcxproj", "{CADD8A17-8230-491E-9A16-DE4EB1F06C93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TM2Extract", "TM2Extract\TM2Extract.vcxproj", "{F43AD96D-E432-47D4-9868-3A045AEA82B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Debug|Win32.Build.0 = Debug|Win32
+		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Debug|x64.ActiveCfg = Debug|Win32
 		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Release|Win32.ActiveCfg = Release|Win32
 		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Release|Win32.Build.0 = Release|Win32
+		{E0C4BB59-2EA0-4910-B9C1-15DE1CF72179}.Release|x64.ActiveCfg = Release|Win32
 		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Debug|Win32.Build.0 = Debug|Win32
+		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Debug|x64.ActiveCfg = Debug|Win32
 		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Release|Win32.ActiveCfg = Release|Win32
 		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Release|Win32.Build.0 = Release|Win32
+		{B6FA5715-82CB-4F66-AC9F-84A6CD92C4D2}.Release|x64.ActiveCfg = Release|Win32
 		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Debug|Win32.ActiveCfg = Debug|Win32
 		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Debug|Win32.Build.0 = Debug|Win32
+		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Debug|x64.ActiveCfg = Debug|Win32
 		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Release|Win32.ActiveCfg = Release|Win32
 		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Release|Win32.Build.0 = Release|Win32
+		{CADD8A17-8230-491E-9A16-DE4EB1F06C93}.Release|x64.ActiveCfg = Release|Win32
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Debug|Win32.Build.0 = Debug|Win32
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Debug|x64.ActiveCfg = Debug|x64
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Debug|x64.Build.0 = Debug|x64
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Release|Win32.ActiveCfg = Release|Win32
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Release|Win32.Build.0 = Release|Win32
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Release|x64.ActiveCfg = Release|x64
+		{F43AD96D-E432-47D4-9868-3A045AEA82B0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
