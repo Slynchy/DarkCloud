@@ -1,10 +1,13 @@
 Dark Cloud tools
 =========
 
-LightCloud and WhiteCloud are tools to unpack and repack files from Dark Cloud (TM) and Dark Cloud (TM) 2 (Dark Chronicles in Europe) games. The tools are quite simple and they doesn't offer great features. They was written only for research purpose.
+LightCloud and WhiteCloud are tools to unpack and repack files from Dark Cloud™ and Dark Cloud™ 2 (Dark Chronicles™ in Europe) games. 
 
-WhiteCloud unpack .DAT files, that are described by an .HD2 or an .HD3 files. The HD3 files was discovered in Dark Cloud 2. The directory that will handle the exported files has the same name of .HDx file without the extension.
+WhiteCloud unpacks .DAT files, using an .HD2 or an .HD3 file. The HD3 files are exclusive to Dark Chronicles™. The files are exported to a directory of the same name as the .HDx file.
 
-LightCloud repack the files unpacked with WhiteCloud (or with any other tool) using an .HDx file. The archive will be re-created using the same extracted files from WhiteCloud. This means that if you add new files into the unpacking directory, they will be not added into the new .DAT file. The old .DAT and .HDx files will be replaced with the new one.
+LightCloud repacks the unpacked files using an .HDx file. This means that if you add new files into the unpacking directory, they will be not added into the new .DAT file. 
 
-LightCloud and WhiteCloud was written by Luciano Ciccariello (Xeeynamo) and their source code are downloadable at http://github.com/Xeeynamo/DarkCloud
+TM2Extract scans a file for TIM2 files (.tm2) and extracts them.
+
+LightCloud and WhiteCloud was written by Luciano Ciccariello (Xeeynamo), and TM2 Extract was written by Sam Lynch. Their source code are downloadable at http://github.com/Xeeynamo/DarkCloud
+
