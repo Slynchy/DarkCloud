@@ -20,10 +20,28 @@
 #include "../libDarkCloud/hd2.h"
 #include "../libDarkCloud/hd3.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[16])
 {
 	printf("White Cloud - Dark Cloud's HD2/HD3 unpacker\n"
 		"Developed by Luciano Ciccariello (Xeeynamo)\n\n");
+
+	if (argc == 1)
+	{
+		if (access("DATA.DAT", 0) != -1) 
+		{
+			argv[1] = "DATA.DAT";
+			if (access("DATA.HD2", 0) != -1) 
+			{
+				argv[2] = "DATA.HD2";
+				argc = 3;
+			}
+			else if (access("DATA.HD3", 0) != -1)
+			{
+				argv[2] = "DATA.HD3";
+				argc = 3;
+			}
+		}
+	}
 
 	if (argc == 3)
 	{
